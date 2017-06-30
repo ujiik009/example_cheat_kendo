@@ -48,7 +48,7 @@
                     color: "#bb6e36"
                 }],
                 valueAxis: {
-                    max: 180,
+                    
                     line: {
                         visible: false
                     },
@@ -73,13 +73,13 @@
 
 $(function(){
 	var chart_type = [
-		"bubble",
 		"bar",
 		"column",
 		"line",
 		"area"
 	]
-	stacked_area("#chart",chart_type[4],0);
+	//stacked_area(target,type_chart,stack_option) 
+	stacked_area("#chart",chart_type[0],1);
 });
 </script>
 </html>
